@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+    font-family: "Merriweather";
+
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    height: 100%;
+    width: 850px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* header */
+
+.header {
+    height: 100px;
+    width: 100%;
+
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.header p {
+    margin-bottom: 30px;
+}
+
+/* main-post */
+
+.main-post {
+    justify-content: space-between;
+    margin-bottom: 30px;
+} 
+
+.main-post-img {
+    width: 555px;
+    height: 300px;
+}
+
+/* other-posts contains other-post */
+
+.other-posts {
+    justify-content: space-between;
+}
+
+.other-post {
+    width: 260px;
+}
+
+.other-post-img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+/* post-summary used both in main-post & other-post */
+
+.post-summary {
+    width: 260px;
+}
+
+.post-summary h2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.post-summary h4 {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+.main-post .post-summary {
+    justify-content: center;
+}

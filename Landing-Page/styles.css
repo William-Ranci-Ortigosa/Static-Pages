@@ -1,0 +1,531 @@
+/* font-family: Hellix, I've installed for you */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 100%;
+    min-height: 100vh;
+    font-family: Hellix, Helvetica, sans-serif;
+    color: #111235;
+    background: #F2F2F2;
+}
+
+.all-container{
+    background: linear-gradient(7.28deg, #EEF5FF 0%, #FFFFFF 99.69%);
+    max-width: 414px;
+}
+
+/* page-content */
+
+.page-content {
+    margin-bottom: 100px;
+}
+
+.third {
+    background: linear-gradient(99.85deg, #BAD5FF 0%, #6487BF 100%);
+}
+
+.fifth {
+    width: 100%;
+    padding-top: 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* content-container*/
+
+.training-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* All inner-container styles */
+
+.inner-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.two {
+    background: #F2F8FF;
+    padding: 50px 0;
+}
+
+.three {
+    padding: 70px 0 20px 0;
+}
+
+/* MaxStrong logo */
+
+.logo-container {
+    width: 100%;
+    height: 75px;
+    align-items: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.second-style {
+    box-shadow: none;
+}
+
+/* All header styles */
+
+.header {
+    font-weight: 500;
+    width: 90%;
+}
+
+h1 {
+    font-size: 64px;
+    line-height: 75px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.three > h2 {
+    width: 95%;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 43px;
+}
+
+h5 {
+    width: 60%;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+h6 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+/* All modifier classes */
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.bold-700 {
+    font-weight: 700;
+}
+
+.bold-600 {
+    font-weight: 600;
+}
+
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* workout animation images */
+.workout-img {
+    width: 100%;
+}
+
+.workout-img-one {
+    margin-top: 40px;
+}
+
+/* blue-bubble divs */
+
+.bubble-container {
+    border-radius: 30px;
+    width: 95%;
+    padding: 50px 0;
+    margin: 10px 0;
+}
+
+.bubble-container:nth-of-type(1) {
+    margin-top: 40px;
+}
+.bubble-container:nth-last-of-type(1) {
+    margin-bottom: 20px;
+}
+
+.bubble-container > * {
+    margin: 0 5px 0 20px
+}
+
+.blue-bg {
+    background: #E4F0FF;
+}
+
+.purple-bg {
+    background: rgba(114, 122, 239, 0.1);
+}
+
+/* Paragraph */
+
+p {
+    width: 90%;
+    margin: 20px 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.copyright-p {
+    padding-bottom: 20px;
+}
+
+/* Pill shaped, purple and white buttons */
+
+button {
+    width: 60%;
+    height: 60px;
+    border-radius: 35px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    border: none;
+    margin-top: 20px;
+}
+
+.purple-btn {
+    background: #4B5092;
+    color: #FFFFFF;
+}
+
+.white-btn {
+    background: #FFFFFF;
+    color: #436BAA;
+}
+
+/* Nav list footer*/
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.nav-li {
+    padding: 30px;
+}
+
+/* Email Adress form */
+
+.form-container {
+    width: 60%;
+}
+
+form {
+    width: 100%;
+}
+
+input[type="email"] {
+    width: 90%;
+    height: 40px;
+    font-family: inherit;
+    border: none;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-left: 10px;
+}
+
+::placeholder, :focus {
+    color: #111235;
+    outline: none;
+}
+
+.send-btn {
+    background-color: white;
+    width: 20%;
+    height: 40px;
+    margin-top: 0;
+    border-radius: 8px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.send-img {
+    margin: auto;
+    width: 15px;
+    height: 15px;
+}
+
+/* Social media links */
+
+.social-media-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-container > * {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin: 15px 15px;
+    margin-bottom: 40px;
+}
+
+.social-media-img {
+    width: 20px;
+    margin: auto;
+}
+
+.nav-header {
+    display: none;
+}
+
+.desktop-only {
+    display: none;
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 992px) {
+
+    .mobile-only {
+        display: none;
+    }
+
+    .desktop-only {
+        display: inline;
+    }
+
+    html, body {
+        margin: 0;
+        height: 100%;
+    }
+
+    .all-container {
+        max-width: 1500px;
+    }
+
+    /* page-content */
+
+    .page-content {
+        width: 100%;
+    }
+
+    .third {
+        width: 100%;
+    }
+
+    .fifth {
+        width: 90%;
+        flex-direction: row;
+        border-top: 1px solid rgba(0, 0, 0, 0.3);
+        margin: auto;
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    /* content-container */
+    
+    .content-container {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 90%;
+    }
+
+    .training-content {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* inner-container */
+    
+    .inner-container {
+        margin: auto;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .one {
+        justify-content: center;
+    }
+
+    .two {
+        width: 90%;
+        border-radius: 50px;
+        padding: 35px 50px;
+        box-sizing: border-box;
+    }
+
+    .three {
+        margin: 0;
+        margin-left: 70px;
+        width: 30%;
+        border-radius: 50px;
+        padding: 100px 0px;
+    }
+
+    .four {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .five {
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* MaxStrong logo and nav header */
+
+    .logo-container {
+        width: 90%;
+        display: flex;
+        text-align: left;
+        box-shadow: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-header {
+        display: flex;
+        width: 40%;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 40%;
+    }
+
+    /* Images */
+
+    .workout-img-one {
+        min-width: 60%;
+    }
+    
+    .trainer-img {
+        min-width: 550px;
+
+    }
+
+    /* Buttons */
+
+    .purple-btn {
+        width: 200px;
+        margin-top: 40px;
+    }
+
+    .h-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    button.desktop-only {
+        margin: 0;
+    }
+
+    /* bubble container */
+
+    .bubble-field-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .bubble-container {
+        width: 48%;
+        height: 230px;
+        margin: 5px;
+    }
+
+    .img-container {
+        width: 50%;
+    }
+
+    .bubble-container:nth-of-type(1) {
+        margin-top: 10px;
+    }
+
+    .bubble-container:nth-last-of-type(1) {
+        margin-bottom: 0px;
+    }
+
+    /* Nav list */
+
+    .nav-list {
+        margin-top: 50px; 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 120px;
+        width: 80%;
+    }
+
+    .nav-li {
+        padding: 5px;
+        width: 100px;
+    }
+
+    /* Form */
+
+    .form-container {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .copyright-p {
+        padding-top: 70px;
+    }
+
+    .second-style {
+        width: 25%;
+        padding-top: 0;
+        flex-direction: column;
+    }
+}
