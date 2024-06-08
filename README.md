@@ -1,6 +1,6 @@
-# Delivery-Status
+# Static-Pages
 
-This project is part of a series hosted on GitHub as a part of the Freemote Developer Bootcamp. Through this series, I've gained proficiency in HTML and CSS best practices, with a significant focus on utilizing CSS Flexbox for creating versatile layouts within webpages.
+This series of projects was completed as part of the Freemote Developer Bootcamp. Through this series, I've gained proficiency in HTML and CSS best practices, with a significant focus on utilizing CSS Flexbox for creating versatile layouts within webpages.
 
 ### Landing-Page:
 ![Landing Page Screenshot](/Screenshots/landing-page.png)
